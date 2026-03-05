@@ -1,3 +1,9 @@
+""""
+Project: AI EV Infrastructure Planner
+Author: Nishath Sultana
+Institution: Sreyas Institute of Engineering and Technology
+Year: 2026
+""""
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -311,5 +317,6 @@ fig_heatmap = px.density_mapbox(
     height=600,
     mapbox_style="open-street-map",
 )
+
 
 st.plotly_chart(fig_heatmap, use_container_width=True)
